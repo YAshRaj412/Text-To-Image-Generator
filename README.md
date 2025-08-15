@@ -1,2 +1,21 @@
-# Text-To-Image-Generator
-A simple web interface that uses the Hugging Face Inference API to generate images from user-provided text prompts, showcasing a fine-tuned text-to-image model.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEXT TO IMAGE</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Text To Image</h1>
+<label for=" ">Create an image from text prompt:</label>
+<input type="text" id="input">
+<button class="button-85" id="button">Generate</button>
+<img id="image" src=" " alt=" ">
+<script src="/script.js"></script>
+</body>
+</html>
+
+
